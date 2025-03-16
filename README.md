@@ -16,7 +16,6 @@
             background-position: center;
             height: 100vh;
         }
-
         .carta {
             position: relative;
             background-color: rgba(255, 255, 255, 0.8);
@@ -27,24 +26,20 @@
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
-
         h1 {
             color: #ff69b4;
             font-size: 2.5em;
             margin-bottom: 20px;
         }
-
         p {
             font-size: 1.5em;
             color: #333;
             margin-bottom: 30px;
         }
-
         .firma {
             font-style: italic;
             color: #ff69b4;
         }
-
         /* Estilo de las mariposas */
         .butterfly {
             position: absolute;
@@ -55,7 +50,6 @@
             background-repeat: no-repeat;
             animation: fly 10s linear infinite;
         }
-
         /* Animación de vuelo de las mariposas */
         @keyframes fly {
             0% {
@@ -72,14 +66,12 @@
     </style>
 </head>
 <body>
-
     <div class="carta">
         <h1>Hola querida Luciana,</h1>
         <p>Quería saber si tendría el honor de poder ir a tomar la media tarde con vos.</p>
         <p class="firma">Con cariño,</p>
         <p class="firma">[Tu nombre]</p>
     </div>
-
     <!-- JavaScript para generar mariposas -->
     <script>
         function generarMariposas() {
@@ -92,7 +84,6 @@
                 document.body.appendChild(butterfly);
             }
         }
-
         // Llamar a la función para generar las mariposas al cargar la página
         window.onload = generarMariposas;
     </script>
